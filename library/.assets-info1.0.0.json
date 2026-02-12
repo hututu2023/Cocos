@@ -1,0 +1,500 @@
+{
+  "version": "1.0.0",
+  "map": {
+    "E:\\marchine learning\\projects\\NewProject\\assets\\scripts.meta": {
+      "time": 1770727238240.3193
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\scripts": {
+      "time": 1770766803067.603,
+      "uuid": "efe8e96f-a131-47fc-9fda-0ae7f89a8fab"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\prefabs.meta": {
+      "time": 1770727372264.5015
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\prefabs": {
+      "time": 1770816428502.6472,
+      "uuid": "fc47dd4f-9c79-4e85-be1a-ac68c32b84c4"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures.meta": {
+      "time": 1770727384131.052
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures": {
+      "time": 1770731339026.3186,
+      "uuid": "7c08eea5-a255-49d1-8d98-1564124e758b"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\ui.meta": {
+      "time": 1770727392612.314
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\ui": {
+      "time": 1770727392607.6018,
+      "uuid": "df4a6336-7a7f-4109-ab51-dd9960fe6c76"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\scene.scene.meta": {
+      "time": 1770728876805.443
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\scene.scene": {
+      "time": 1770904355345.6826,
+      "uuid": "e29343cc-c418-4a99-89b2-ac843b3b0992"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\scripts\\CardModel.ts.meta": {
+      "time": 1770729051032.062
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\scripts\\CardModel.ts": {
+      "time": 1770791096787.2612,
+      "uuid": "365d1d46-f4ff-43e9-bd8b-5ee14d3d99b8"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\scripts\\GameDataModel.ts.meta": {
+      "time": 1770729981507.241
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\scripts\\GameDataModel.ts": {
+      "time": 1770791053363.3694,
+      "uuid": "6feb5496-ec0e-48e4-951b-b225d7272e66"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\scripts\\CardView.ts.meta": {
+      "time": 1770730145567.8018
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\scripts\\CardView.ts": {
+      "time": 1770899735300.377,
+      "uuid": "dcc2b037-2310-4e9b-9322-0114997a348e"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number.meta": {
+      "time": 1770731339023.3147
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\suits.meta": {
+      "time": 1770731339024.315
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number": {
+      "time": 1770731339094.3325,
+      "uuid": "9c92200e-aeed-4d90-b037-58a977d7d90c"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\suits": {
+      "time": 1770731339098.8418,
+      "uuid": "3a2e8bdd-2436-4caf-8219-81c9619885cf"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\card_general.png.meta": {
+      "time": 1770732796119.1821
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\big_black_10.png.meta": {
+      "time": 1770731339163.6956
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\big_black_2.png.meta": {
+      "time": 1770732833002.7695
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\big_black_3.png.meta": {
+      "time": 1770732840707.1184
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\big_black_4.png.meta": {
+      "time": 1770732845661.119
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\big_black_5.png.meta": {
+      "time": 1770732805664.0303
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\big_black_6.png.meta": {
+      "time": 1770732853792.4211
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\big_black_7.png.meta": {
+      "time": 1770731339206.12
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\big_black_8.png.meta": {
+      "time": 1770731339208.1196
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\big_black_9.png.meta": {
+      "time": 1770731339218.178
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\big_black_A.png.meta": {
+      "time": 1770821136479.3125
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\big_black_J.png.meta": {
+      "time": 1770731339244.884
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\big_black_K.png.meta": {
+      "time": 1770821383685.4387
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\big_black_Q.png.meta": {
+      "time": 1770731339248.8853
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\big_red_10.png.meta": {
+      "time": 1770731339276.9885
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\big_red_2.png.meta": {
+      "time": 1770821099319.9683
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\big_red_3.png.meta": {
+      "time": 1770731339289.509
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\big_red_4.png.meta": {
+      "time": 1770731339299.543
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\big_red_5.png.meta": {
+      "time": 1770821094737.1057
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\big_red_6.png.meta": {
+      "time": 1770821414367.3413
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\big_red_7.png.meta": {
+      "time": 1770731339327.2974
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\big_red_8.png.meta": {
+      "time": 1770731339330.3008
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\big_red_9.png.meta": {
+      "time": 1770731339333.2998
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\big_red_A.png.meta": {
+      "time": 1770821107195.6687
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\big_red_J.png.meta": {
+      "time": 1770731339351.9895
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\big_red_K.png.meta": {
+      "time": 1770821378159.034
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\big_red_Q.png.meta": {
+      "time": 1770731339368.423
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\small_black_10.png.meta": {
+      "time": 1770815481967.2798
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\small_black_2.png.meta": {
+      "time": 1770820987030.347
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\small_black_3.png.meta": {
+      "time": 1770821436549.5654
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\small_black_4.png.meta": {
+      "time": 1770731339398.7969
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\small_black_5.png.meta": {
+      "time": 1770815701387.6704
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\small_black_6.png.meta": {
+      "time": 1770821403649.2102
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\small_black_7.png.meta": {
+      "time": 1770731339428.0789
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\small_black_8.png.meta": {
+      "time": 1770731339436.486
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\small_black_9.png.meta": {
+      "time": 1770815487862.4229
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\small_black_A.png.meta": {
+      "time": 1770821113656.5906
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\small_black_J.png.meta": {
+      "time": 1770731339451.4868
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\small_black_K.png.meta": {
+      "time": 1770815705760.7463
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\small_black_Q.png.meta": {
+      "time": 1770731339469.8352
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\small_red_10.png.meta": {
+      "time": 1770731339472.813
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\small_red_2.png.meta": {
+      "time": 1770821119502.1316
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\small_red_3.png.meta": {
+      "time": 1770731339483.0547
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\small_red_4.png.meta": {
+      "time": 1770731339490.2473
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\small_red_5.png.meta": {
+      "time": 1770821123624.5474
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\small_red_6.png.meta": {
+      "time": 1770821398187.797
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\small_red_7.png.meta": {
+      "time": 1770731339513.6663
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\small_red_8.png.meta": {
+      "time": 1770731339516.67
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\small_red_9.png.meta": {
+      "time": 1770815560315.875
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\small_red_A.png.meta": {
+      "time": 1770821128850.3486
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\small_red_J.png.meta": {
+      "time": 1770731339543.7688
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\small_red_K.png.meta": {
+      "time": 1770821394543.0664
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\small_red_Q.png.meta": {
+      "time": 1770731339556.2878
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\suits\\club.png.meta": {
+      "time": 1770815714121.5854
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\suits\\diamond.png.meta": {
+      "time": 1770815717530.5999
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\suits\\heart.png.meta": {
+      "time": 1770815721424.581
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\suits\\spade.png.meta": {
+      "time": 1770815725664.3206
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\big_black_10.png": {
+      "time": 1736759750000,
+      "uuid": "4fde1569-ba0f-48d9-a0e9-02291ddb3220"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\card_general.png": {
+      "time": 1736759752000,
+      "uuid": "ae45caa2-640c-47b9-8d11-8126fb25826f"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\big_black_3.png": {
+      "time": 1736759750000,
+      "uuid": "d0fc475d-5eb2-4318-99fa-2805a5a95fd8"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\big_black_4.png": {
+      "time": 1736759752000,
+      "uuid": "6edc0972-f70a-4a5a-bb0f-c65bc0ae1769"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\big_black_2.png": {
+      "time": 1736759750000,
+      "uuid": "4494ae4e-b124-430f-9cb7-49d1240981b9"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\big_black_6.png": {
+      "time": 1736759754000,
+      "uuid": "fce83dc4-fbaa-4cb8-84df-0bc264e8d325"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\big_black_5.png": {
+      "time": 1736759752000,
+      "uuid": "87554351-fa34-4646-9f17-b8eac40bb57a"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\big_black_7.png": {
+      "time": 1736759756000,
+      "uuid": "9c217650-599d-403b-ae0f-de1609a56404"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\big_black_8.png": {
+      "time": 1736759754000,
+      "uuid": "e3c46248-50a5-4297-b250-2d850bbddabd"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\big_black_9.png": {
+      "time": 1736759752000,
+      "uuid": "8a6250ea-400f-43a5-97d6-18bebd28eae8"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\big_black_J.png": {
+      "time": 1736759752000,
+      "uuid": "e37731c2-0666-4f55-a79e-fafbf9a38eb8"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\big_black_K.png": {
+      "time": 1736759750000,
+      "uuid": "0e8cccf2-eb17-466c-bd35-ee96ffbed92e"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\big_black_Q.png": {
+      "time": 1736759750000,
+      "uuid": "93926f37-bafe-4187-86aa-a52d5643832d"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\big_black_A.png": {
+      "time": 1736759756000,
+      "uuid": "a8257adc-5eff-4144-bd83-ddaaa1cd4d82"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\big_red_10.png": {
+      "time": 1736759750000,
+      "uuid": "762de5e4-c62f-4940-8448-27e9644ccfea"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\big_red_3.png": {
+      "time": 1736759754000,
+      "uuid": "3c4ff919-5021-45f5-9f43-dbbb5e215d19"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\big_red_5.png": {
+      "time": 1736759750000,
+      "uuid": "332ef3dd-fad7-466d-b513-5b1fe6674f46"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\big_red_2.png": {
+      "time": 1736759754000,
+      "uuid": "9a4e5486-1f8c-44fa-9e2c-9d60a0686490"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\big_red_4.png": {
+      "time": 1736759756000,
+      "uuid": "359acb79-0ab0-42d0-8b67-e328587553dd"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\big_red_6.png": {
+      "time": 1736759750000,
+      "uuid": "6b0ea241-1015-46de-9a7d-130436186be2"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\big_red_7.png": {
+      "time": 1736759750000,
+      "uuid": "1bcdba9f-89bc-4214-8606-20a01c984bc4"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\big_red_8.png": {
+      "time": 1736759754000,
+      "uuid": "a8f2b916-6918-4a5f-abf8-06d6931672ca"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\big_red_9.png": {
+      "time": 1736759750000,
+      "uuid": "39ac2228-a89b-4519-af3b-3d24d1cf569d"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\big_red_A.png": {
+      "time": 1736759754000,
+      "uuid": "18c34ff9-2230-429f-933a-0bf2b13e36a5"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\big_red_J.png": {
+      "time": 1736759750000,
+      "uuid": "8d03e56d-52d8-498a-8258-6a94cbe6b719"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\big_red_K.png": {
+      "time": 1736759752000,
+      "uuid": "1fc9bcbc-7b66-403a-a58b-8a8c40176c09"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\big_red_Q.png": {
+      "time": 1736759750000,
+      "uuid": "0368cfc8-773e-4241-8207-d0692d09da3d"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\small_black_10.png": {
+      "time": 1736759756000,
+      "uuid": "136638ed-c1fe-4dcf-a07f-9e2b7a379611"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\small_black_2.png": {
+      "time": 1736759752000,
+      "uuid": "367fe87c-f836-429e-849e-c159a4cf9999"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\small_black_3.png": {
+      "time": 1736759750000,
+      "uuid": "90d200f3-da11-4bd6-b5dd-8d7481451fd0"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\small_black_4.png": {
+      "time": 1736759756000,
+      "uuid": "7bd6e5be-16c0-426d-b879-4bf83eb2c037"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\small_black_6.png": {
+      "time": 1736759754000,
+      "uuid": "b6485045-2449-45ab-a2ce-e4e583c20bd8"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\small_black_5.png": {
+      "time": 1736759750000,
+      "uuid": "24667352-9a14-4368-b8c9-0f4e6d806c1f"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\small_black_7.png": {
+      "time": 1736759752000,
+      "uuid": "b436fc9c-1fa7-4321-a4bb-5c717d0b9695"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\small_black_8.png": {
+      "time": 1736759752000,
+      "uuid": "2b04ecee-04e2-4782-9491-c15455d59679"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\small_black_9.png": {
+      "time": 1736759750000,
+      "uuid": "faf62cec-c3c2-42d8-895d-8582408a7d62"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\small_black_J.png": {
+      "time": 1736759752000,
+      "uuid": "4b6a455a-7098-47a9-8d46-80a34e874834"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\small_black_A.png": {
+      "time": 1736759756000,
+      "uuid": "148e862a-a43c-4fdc-aa46-c26ca831766b"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\small_black_K.png": {
+      "time": 1736759750000,
+      "uuid": "ef96ea9e-be2e-43d7-bcee-dd53dd359745"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\small_black_Q.png": {
+      "time": 1736759754000,
+      "uuid": "d1ac9424-e24f-4dd5-8806-b138809b93cd"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\small_red_10.png": {
+      "time": 1736759750000,
+      "uuid": "7b04802b-9794-43cc-9b52-aa8cde043cd4"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\small_red_2.png": {
+      "time": 1736759754000,
+      "uuid": "f3a8e64d-2a08-4d10-b228-20e7ef3b790f"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\small_red_3.png": {
+      "time": 1736759752000,
+      "uuid": "321bc25f-9a21-46af-9031-d4fe5bd08ceb"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\small_red_4.png": {
+      "time": 1736759752000,
+      "uuid": "9a3ab7b7-9470-4f0c-a0c6-b57976304925"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\small_red_5.png": {
+      "time": 1736759752000,
+      "uuid": "7459c65a-887b-42d5-8837-7b24afe5ff52"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\small_red_6.png": {
+      "time": 1736759754000,
+      "uuid": "3fd72340-0f7f-4640-ae87-a913b621c32d"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\small_red_7.png": {
+      "time": 1736759756000,
+      "uuid": "34f22a52-7a2e-463c-810f-f8e588c7537e"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\small_red_8.png": {
+      "time": 1736759754000,
+      "uuid": "cf007596-4deb-4547-b724-607bee74835a"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\small_red_9.png": {
+      "time": 1736759752000,
+      "uuid": "a9599d3d-0738-45e0-9d73-80d04f351c7d"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\small_red_A.png": {
+      "time": 1736759750000,
+      "uuid": "93bf1e43-d3c9-4167-b9a0-5e15c6bdfe3e"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\small_red_J.png": {
+      "time": 1736759756000,
+      "uuid": "68c649ea-ff1b-4bde-a626-dec351919ff2"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\small_red_Q.png": {
+      "time": 1736759750000,
+      "uuid": "85c64f40-4630-4601-95c5-53bee485c998"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\number\\small_red_K.png": {
+      "time": 1736759752000,
+      "uuid": "8d59ecee-b269-43f7-971a-d9c403f3e62a"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\suits\\club.png": {
+      "time": 1736759750000,
+      "uuid": "0f96f82c-06e5-45ac-8cb6-2db470768f02"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\suits\\diamond.png": {
+      "time": 1736759754000,
+      "uuid": "f768c3bd-8cae-4853-a8d9-2fe9d1272bd5"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\suits\\heart.png": {
+      "time": 1736759752000,
+      "uuid": "7505f217-13dd-4c05-ac44-c52fd3eb7a91"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\textures\\suits\\spade.png": {
+      "time": 1736759752000,
+      "uuid": "f5af3a48-bd01-415e-b965-cdc23651881f"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\prefabs\\Card.prefab.meta": {
+      "time": 1770733990840.3218
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\prefabs\\Card.prefab": {
+      "time": 1770824861456.0745,
+      "uuid": "d2b385cb-cf21-4863-a219-892d6ed29dd0"
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\scripts\\GameManager.ts.meta": {
+      "time": 1770766803071.119
+    },
+    "E:\\marchine learning\\projects\\NewProject\\assets\\scripts\\GameManager.ts": {
+      "time": 1770903798602.1848,
+      "uuid": "90b2335d-ef75-45d4-ad19-9aa718b8d188"
+    }
+  },
+  "missing": {
+    "0e770e0b-9321-485a-8cd1-cebfc4f5db57": {
+      "path": "E:\\marchine learning\\projects\\NewProject\\assets\\prefabs\\Cardprefab.prefab",
+      "time": 1770733879620.604,
+      "removeTime": 1770816428535
+    },
+    "0e109453-cf77-4e43-89a4-fef8bf175c8a": {
+      "path": "E:\\marchine learning\\projects\\NewProject\\assets\\prefabs\\Card.prefab",
+      "time": 1770733891666.0803,
+      "removeTime": 1770733905462
+    }
+  }
+}

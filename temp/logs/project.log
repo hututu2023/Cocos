@@ -1,0 +1,507 @@
+2026-2-12 20:00:08 - log: Load engine in E:\cocoseditors\Creator\3.8.2\resources\resources\3d\engine
+2026-2-12 20:00:09 - log: Register native engine in E:\cocoseditors\Creator\3.8.2\resources\resources\3d\engine\native
+2026-2-12 20:00:28 - log: [Scene] meshopt wasm decoder initialized
+2026-2-12 20:00:28 - log: [Scene] [box2d]:box2d wasm lib loaded.
+2026-2-12 20:00:28 - log: [Scene] [bullet]:bullet wasm lib loaded.
+2026-2-12 20:00:29 - log: [Scene] [PHYSICS]: using builtin.
+2026-2-12 20:00:30 - log: [Scene] Cocos Creator v3.8.2
+2026-2-12 20:00:30 - info: [Scene] Forward render pipeline initialized.
+2026-2-12 20:00:30 - log: [Scene] [PHYSICS]: switch from builtin to bullet.
+2026-2-12 20:00:30 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
+2026-2-12 20:02:04 - warn: [Scene] You are trying to destroy a object twice or more.Error: [Scene] You are trying to destroy a object twice or more.
+    at warn (E:\cocoseditors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (E:\cocoseditors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at Node.destroy (E:\cocoseditors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:130800:13)
+    at Node.destroy (E:\cocoseditors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:53497:21)
+    at MiniPreview.clearByComponent (E:\cocoseditors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\manager\mini-preview\index.ccc:1:3654)
+    at MiniPreview.createPreviewNode (E:\cocoseditors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\manager\mini-preview\index.ccc:1:4018)
+    at MiniPreview.handleSelect (E:\cocoseditors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\manager\mini-preview\index.ccc:1:3235)
+2026-2-12 20:04:10 - warn: [Scene] You are trying to destroy a object twice or more.Error: [Scene] You are trying to destroy a object twice or more.
+    at warn (E:\cocoseditors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at warnID (E:\cocoseditors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148843:5)
+    at Node.destroy (E:\cocoseditors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:130800:13)
+    at Node.destroy (E:\cocoseditors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:53497:21)
+    at MiniPreview.clearByComponent (E:\cocoseditors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\manager\mini-preview\index.ccc:1:3654)
+    at MiniPreview.removePreviewNode (E:\cocoseditors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\manager\mini-preview\index.ccc:1:3972)
+    at MiniPreview.handleUnselect (E:\cocoseditors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\manager\mini-preview\index.ccc:1:3346)
+2026-2-12 21:01:26 - warn: 为更好地打开脚本，请在 偏好设置 -> 程序管理器 -> 默认脚本编辑器 里配置打开脚本的应用程序
+2026-2-12 21:30:14 - error: [Programming] {hidden(::PackerDriver::)} SyntaxError: E:\cocoseditors\Creator\3.8.2\data:text\javascript,%0A%2F%2F%20This%20module%20is%20auto-generated%20to%20report%20error%20emitted%20when%20try%20to%20load%20module%20file%3A%2F%2F%2FE%3A%2Fmarchine%2520learning%2Fprojects%2FNewProject%2Fassets%2Fscripts%2FGameManager.ts%20at%20runtime.%0Athrow%20new%20Error(%60SyntaxError%3A%20E%3A%5Ccocoseditors%5CCreator%5C3.8.2%5Cfile%3A%5CE%3A%5Cmarchine%2520learning%5Cprojects%5CNewProject%5Cassets%5Cscripts%5CGameManager.ts%3A%20Invalid%20left-hand%20side%20in%20assignment%20expression.%20(82%3A8)%0A%0A%20%2080%20%7C%0A%20%2081%20%7C%20%20%20%20%20%20%20%20%20%2F%2F%204.%20%E4%B8%BB%E7%89%8C%E5%8C%BA%E7%A6%81%E7%94%A8%E8%BF%99%E5%BC%A0%E7%89%8C%0A%3E%2082%20%7C%20%20%20%20%20%20%20%20%20mainNode.getComponent(Button)%3F.interactable%20%3D%20false%3B%0A%20%20%20%20%20%7C%20%20%20%20%20%20%20%20%20%5E%0A%20%2083%20%7C%20%20%20%20%20%7D%0A%20%2084%20%7C%0A%20%2085%20%7C%20%20%20%20%20%2F%2F%20%E5%88%B7%E6%96%B0%E5%BA%95%E7%89%8C%E6%98%BE%E7%A4%BA%60)%3B%0A%20%20%20%20%20%20%20%20: Invalid escape sequence in template. (3:54)
+
+  1 |
+  2 | // This module is auto-generated to report error emitted when try to load module file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts at runtime.
+> 3 | throw new Error(`SyntaxError: E:\cocoseditors\Creator\3.8.2\file:\E:\marchine%20learning\projects\NewProject\assets\scripts\GameManager.ts: Invalid left-hand side in assignment expression. (82:8)
+    |                                                       ^
+  4 |
+  5 |   80 |
+  6 |   81 |         // 4. 主牌区禁用这张牌
+    at constructor (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:348:19)
+    at TypeScriptParserMixin.raise (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:3202:19)
+    at TypeScriptParserMixin.parseTemplateElement (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:11563:14)
+    at TypeScriptParserMixin.parseTemplate (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:11584:23)
+    at TypeScriptParserMixin.parseExprAtom (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:11143:21)
+    at TypeScriptParserMixin.parseExprSubscripts (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10839:23)
+    at TypeScriptParserMixin.parseUpdate (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10822:21)
+    at TypeScriptParserMixin.parseMaybeUnary (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10798:23)
+    at TypeScriptParserMixin.parseMaybeUnary (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:9682:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10636:61)
+    at TypeScriptParserMixin.parseExprOps (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10641:23)
+    at TypeScriptParserMixin.parseMaybeConditional (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10618:23)
+    at TypeScriptParserMixin.parseMaybeAssign (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10579:21)
+    at TypeScriptParserMixin.parseMaybeAssign (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:9629:20)
+    at E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10549:39
+    at TypeScriptParserMixin.allowInAnd (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:12229:12)
+    at TypeScriptParserMixin.parseMaybeAssignAllowIn (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10549:17)
+    at TypeScriptParserMixin.parseExprListItem (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:11981:18)
+    at TypeScriptParserMixin.parseExprList (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:11953:22)
+    at TypeScriptParserMixin.parseNew (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:11536:25)
+    at TypeScriptParserMixin.parseNewOrNewTarget (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:11531:17)
+    at TypeScriptParserMixin.parseExprAtom (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:11140:21)
+    at TypeScriptParserMixin.parseExprSubscripts (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10839:23)
+    at TypeScriptParserMixin.parseUpdate (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10822:21)
+    at TypeScriptParserMixin.parseMaybeUnary (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10798:23)
+    at TypeScriptParserMixin.parseMaybeUnary (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:9682:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10636:61)
+    at TypeScriptParserMixin.parseExprOps (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10641:23)
+    at TypeScriptParserMixin.parseMaybeConditional (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10618:23)
+    at TypeScriptParserMixin.parseMaybeAssign (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10579:21)
+    at TypeScriptParserMixin.parseMaybeAssign (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:9629:20)
+    at TypeScriptParserMixin.parseExpressionBase (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10533:23)
+    at E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10529:39
+    at TypeScriptParserMixin.allowInAnd (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:12224:16)
+    at TypeScriptParserMixin.parseExpression (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10529:17)
+    at TypeScriptParserMixin.parseThrowStatement (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:13001:26)
+    at TypeScriptParserMixin.parseStatementContent (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:12570:21)
+    at TypeScriptParserMixin.parseStatementContent (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:9326:18)
+    at TypeScriptParserMixin.parseStatementLike (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:12533:17)
+    at TypeScriptParserMixin.parseModuleItem (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:12510:17)
+    at TypeScriptParserMixin.parseBlockOrModuleBlockBody (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:13134:36)
+    at TypeScriptParserMixin.parseBlockBody (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:13127:10)
+    at TypeScriptParserMixin.parseProgram (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:12409:10)
+    at TypeScriptParserMixin.parseTopLevel (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:12399:25)
+    at TypeScriptParserMixin.parse (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:14295:10)
+    at TypeScriptParserMixin.parse (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:9968:18)
+    at parse (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:14336:38)
+    at parser (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\core\lib\parser\index.js:41:34)
+    at parser.next (<anonymous>)
+    at normalizeFile (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\core\lib\transformation\normalize-file.js:64:37) {
+  code: 'BABEL_PARSE_ERROR',
+  reasonCode: 'InvalidEscapeSequenceTemplate',
+  loc: Position { line: 3, column: 54, index: 229 },
+  pos: 229,
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"code":"BABEL_PARSE_ERROR","level":"error","loc":{"column":54,"index":229,"line":3},"pos":229,"reasonCode":"InvalidEscapeSequenceTemplate"}'
+}[Programming] {hidden(::PackerDriver::)} SyntaxError: E:\cocoseditors\Creator\3.8.2\data:text\javascript,%0A%2F%2F%20This%20module%20is%20auto-generated%20to%20report%20error%20emitted%20when%20try%20to%20load%20module%20file%3A%2F%2F%2FE%3A%2Fmarchine%2520learning%2Fprojects%2FNewProject%2Fassets%2Fscripts%2FGameManager.ts%20at%20runtime.%0Athrow%20new%20Error(%60SyntaxError%3A%20E%3A%5Ccocoseditors%5CCreator%5C3.8.2%5Cfile%3A%5CE%3A%5Cmarchine%2520learning%5Cprojects%5CNewProject%5Cassets%5Cscripts%5CGameManager.ts%3A%20Invalid%20left-hand%20side%20in%20assignment%20expression.%20(82%3A8)%0A%0A%20%2080%20%7C%0A%20%2081%20%7C%20%20%20%20%20%20%20%20%20%2F%2F%204.%20%E4%B8%BB%E7%89%8C%E5%8C%BA%E7%A6%81%E7%94%A8%E8%BF%99%E5%BC%A0%E7%89%8C%0A%3E%2082%20%7C%20%20%20%20%20%20%20%20%20mainNode.getComponent(Button)%3F.interactable%20%3D%20false%3B%0A%20%20%20%20%20%7C%20%20%20%20%20%20%20%20%20%5E%0A%20%2083%20%7C%20%20%20%20%20%7D%0A%20%2084%20%7C%0A%20%2085%20%7C%20%20%20%20%20%2F%2F%20%E5%88%B7%E6%96%B0%E5%BA%95%E7%89%8C%E6%98%BE%E7%A4%BA%60)%3B%0A%20%20%20%20%20%20%20%20: Invalid escape sequence in template. (3:54)
+
+  1 |
+  2 | // This module is auto-generated to report error emitted when try to load module file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts at runtime.
+> 3 | throw new Error(`SyntaxError: E:\cocoseditors\Creator\3.8.2\file:\E:\marchine%20learning\projects\NewProject\assets\scripts\GameManager.ts: Invalid left-hand side in assignment expression. (82:8)
+    |                                                       ^
+  4 |
+  5 |   80 |
+  6 |   81 |         // 4. 主牌区禁用这张牌
+    at constructor (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:348:19)
+    at TypeScriptParserMixin.raise (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:3202:19)
+    at TypeScriptParserMixin.parseTemplateElement (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:11563:14)
+    at TypeScriptParserMixin.parseTemplate (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:11584:23)
+    at TypeScriptParserMixin.parseExprAtom (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:11143:21)
+    at TypeScriptParserMixin.parseExprSubscripts (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10839:23)
+    at TypeScriptParserMixin.parseUpdate (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10822:21)
+    at TypeScriptParserMixin.parseMaybeUnary (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10798:23)
+    at TypeScriptParserMixin.parseMaybeUnary (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:9682:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10636:61)
+    at TypeScriptParserMixin.parseExprOps (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10641:23)
+    at TypeScriptParserMixin.parseMaybeConditional (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10618:23)
+    at TypeScriptParserMixin.parseMaybeAssign (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10579:21)
+    at TypeScriptParserMixin.parseMaybeAssign (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:9629:20)
+    at E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10549:39
+    at TypeScriptParserMixin.allowInAnd (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:12229:12)
+    at TypeScriptParserMixin.parseMaybeAssignAllowIn (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10549:17)
+    at TypeScriptParserMixin.parseExprListItem (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:11981:18)
+    at TypeScriptParserMixin.parseExprList (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:11953:22)
+    at TypeScriptParserMixin.parseNew (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:11536:25)
+    at TypeScriptParserMixin.parseNewOrNewTarget (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:11531:17)
+    at TypeScriptParserMixin.parseExprAtom (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:11140:21)
+    at TypeScriptParserMixin.parseExprSubscripts (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10839:23)
+    at TypeScriptParserMixin.parseUpdate (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10822:21)
+    at TypeScriptParserMixin.parseMaybeUnary (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10798:23)
+    at TypeScriptParserMixin.parseMaybeUnary (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:9682:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10636:61)
+    at TypeScriptParserMixin.parseExprOps (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10641:23)
+    at TypeScriptParserMixin.parseMaybeConditional (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10618:23)
+    at TypeScriptParserMixin.parseMaybeAssign (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10579:21)
+    at TypeScriptParserMixin.parseMaybeAssign (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:9629:20)
+    at TypeScriptParserMixin.parseExpressionBase (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10533:23)
+    at E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10529:39
+    at TypeScriptParserMixin.allowInAnd (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:12224:16)
+    at TypeScriptParserMixin.parseExpression (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10529:17)
+    at TypeScriptParserMixin.parseThrowStatement (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:13001:26)
+    at TypeScriptParserMixin.parseStatementContent (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:12570:21)
+    at TypeScriptParserMixin.parseStatementContent (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:9326:18)
+    at TypeScriptParserMixin.parseStatementLike (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:12533:17)
+    at TypeScriptParserMixin.parseModuleItem (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:12510:17)
+    at TypeScriptParserMixin.parseBlockOrModuleBlockBody (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:13134:36)
+    at TypeScriptParserMixin.parseBlockBody (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:13127:10)
+    at TypeScriptParserMixin.parseProgram (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:12409:10)
+    at TypeScriptParserMixin.parseTopLevel (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:12399:25)
+    at TypeScriptParserMixin.parse (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:14295:10)
+    at TypeScriptParserMixin.parse (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:9968:18)
+    at parse (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:14336:38)
+    at parser (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\core\lib\parser\index.js:41:34)
+    at parser.next (<anonymous>)
+    at normalizeFile (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\core\lib\transformation\normalize-file.js:64:37) {
+  code: 'BABEL_PARSE_ERROR',
+  reasonCode: 'InvalidEscapeSequenceTemplate',
+  loc: Position { line: 3, column: 54, index: 229 },
+  pos: 229,
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"code":"BABEL_PARSE_ERROR","level":"error","loc":{"column":54,"index":229,"line":3},"pos":229,"reasonCode":"InvalidEscapeSequenceTemplate"}'
+}  
+|                                                       ^  
+4 |  
+5 |   80 |  
+6 |   81 |         // 4. 主牌区禁用这张牌  
+at constructor (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:348:19)  
+at TypeScriptParserMixin.raise (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:3202:19)  
+at TypeScriptParserMixin.parseTemplateElement (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:11563:14)  
+at TypeScriptParserMixin.parseTemplate (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:11584:23)  
+at TypeScriptParserMixin.parseExprAtom (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:11143:21)  
+at TypeScriptParserMixin.parseExprSubscripts (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10839:23)  
+at TypeScriptParserMixin.parseUpdate (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10822:21)  
+at TypeScriptParserMixin.parseMaybeUnary (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10798:23)  
+at TypeScriptParserMixin.parseMaybeUnary (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:9682:18)  
+at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10636:61)  
+at TypeScriptParserMixin.parseExprOps (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10641:23)  
+at TypeScriptParserMixin.parseMaybeConditional (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10618:23)  
+at TypeScriptParserMixin.parseMaybeAssign (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10579:21)  
+at TypeScriptParserMixin.parseMaybeAssign (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:9629:20)  
+at E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10549:39  
+at TypeScriptParserMixin.allowInAnd (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:12229:12)  
+at TypeScriptParserMixin.parseMaybeAssignAllowIn (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10549:17)  
+at TypeScriptParserMixin.parseExprListItem (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:11981:18)  
+at TypeScriptParserMixin.parseExprList (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:11953:22)  
+at TypeScriptParserMixin.parseNew (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:11536:25)  
+at TypeScriptParserMixin.parseNewOrNewTarget (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:11531:17)  
+at TypeScriptParserMixin.parseExprAtom (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:11140:21)  
+at TypeScriptParserMixin.parseExprSubscripts (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10839:23)  
+at TypeScriptParserMixin.parseUpdate (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10822:21)  
+at TypeScriptParserMixin.parseMaybeUnary (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10798:23)  
+at TypeScriptParserMixin.parseMaybeUnary (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:9682:18)  
+at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10636:61)  
+at TypeScriptParserMixin.parseExprOps (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10641:23)  
+at TypeScriptParserMixin.parseMaybeConditional (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10618:23)  
+at TypeScriptParserMixin.parseMaybeAssign (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10579:21)  
+at TypeScriptParserMixin.parseMaybeAssign (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:9629:20)  
+at TypeScriptParserMixin.parseExpressionBase (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10533:23)  
+at E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10529:39  
+at TypeScriptParserMixin.allowInAnd (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:12224:16)  
+at TypeScriptParserMixin.parseExpression (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10529:17)  
+at TypeScriptParserMixin.parseThrowStatement (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:13001:26)  
+at TypeScriptParserMixin.parseStatementContent (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:12570:21)  
+at TypeScriptParserMixin.parseStatementContent (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:9326:18)  
+at TypeScriptParserMixin.parseStatementLike (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:12533:17)  
+at TypeScriptParserMixin.parseModuleItem (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:12510:17)  
+at TypeScriptParserMixin.parseBlockOrModuleBlockBody (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:13134:36)  
+at TypeScriptParserMixin.parseBlockBody (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:13127:10)  
+at TypeScriptParserMixin.parseProgram (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:12409:10)  
+at TypeScriptParserMixin.parseTopLevel (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:12399:25)  
+at TypeScriptParserMixin.parse (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:14295:10)  
+at TypeScriptParserMixin.parse (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:9968:18)  
+at parse (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:14336:38)  
+at parser (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\core\lib\parser\index.js:41:34)  
+at parser.next (<anonymous>)  
+at normalizeFile (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\core\lib\transformation\normalize-file.js:64:37) {  
+code: 'BABEL_PARSE_ERROR',  
+reasonCode: 'InvalidEscapeSequenceTemplate',  
+loc: Position { line: 3, column: 54, index: 229 },  
+pos: 229,  
+level: 'error',  
+[Symbol(level)]: 'error',  
+[Symbol(message)]: '{"code":"BABEL_PARSE_ERROR","level":"error","loc":{"column":54,"index":229,"line":3},"pos":229,"reasonCode":"InvalidEscapeSequenceTemplate"}'  
+}  
+at Object.encode (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@base\electron-worker\node_modules\v-stacks\index.js:14:17)  
+at Logger._logHandler (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@base\electron-worker\static\script.ccc:1:531)  
+at Logger.record (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:458)  
+at console.error (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:1414)  
+at PackerDriverLogger.error (E:\cocoseditors\Creator\3.8.2\resources\app.asar\builtin\programming\dist\packer-driver\logger.ccc:1:1103)  
+at E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@cocos\creator-programming-quick-pack\lib\quick-pack.js:188:26  
+at async QuickPack._inspectWithCache (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@cocos\creator-programming-quick-pack\lib\quick-pack.js:187:30)  
+at async QuickPack._getOrCreateInspectRecord (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@cocos\creator-programming-quick-pack\lib\quick-pack.js:147:13)  
+at async E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@cocos\creator-programming-quick-pack\lib\quick-pack.js:242:35  
+at async E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@cocos\creator-programming-common\lib\launch-policy.js:9:30  
+at async QuickPack._link (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@cocos\creator-programming-quick-pack\lib\quick-pack.js:206:28)  
+at async E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@cocos\creator-programming-quick-pack\lib\quick-pack.js:134:42  
+at async QuickPack._getOrCreateInspectRecord (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@cocos\creator-programming-quick-pack\lib\quick-pack.js:147:13)  
+at async QuickPack.build (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@cocos\creator-programming-quick-pack\lib\quick-pack.js:56:35)  
+at async PackTarget.build (E:\cocoseditors\Creator\3.8.2\resources\app.asar\builtin\programming\dist\packer-driver\packer-driver.ccc:1:14793)  
+at async PackerDriver._startBuildIteration (E:\cocoseditors\Creator\3.8.2\resources\app.asar\builtin\programming\dist\packer-driver\packer-driver.ccc:1:9677)  
+at async AsyncIterationConcurrency1._iterate (E:\cocoseditors\Creator\3.8.2\resources\app.asar\builtin\programming\dist\packer-driver\packer-driver.ccc:1:7809)
+2026-2-12 21:30:14 - error: [Programming] {hidden(::PackerDriver::)} TypeError: Cannot read property 'resolutions' of null[Programming] {hidden(::PackerDriver::)} TypeError: Cannot read property 'resolutions' of null  
+at PackerDriverLogger.error (E:\cocoseditors\Creator\3.8.2\resources\app.asar\builtin\programming\dist\packer-driver\logger.ccc:1:1103)  
+at PackTarget.build (E:\cocoseditors\Creator\3.8.2\resources\app.asar\builtin\programming\dist\packer-driver\packer-driver.ccc:1:14936)  
+at async PackerDriver._startBuildIteration (E:\cocoseditors\Creator\3.8.2\resources\app.asar\builtin\programming\dist\packer-driver\packer-driver.ccc:1:9677)  
+at async AsyncIterationConcurrency1._iterate (E:\cocoseditors\Creator\3.8.2\resources\app.asar\builtin\programming\dist\packer-driver\packer-driver.ccc:1:7809)
+2026-2-12 21:30:14 - warn: [Programming] Cannot get build result from quick pack.[Programming] Cannot get build result from quick pack.  
+at PackTarget.build (E:\cocoseditors\Creator\3.8.2\resources\app.asar\builtin\programming\dist\packer-driver\packer-driver.ccc:1:15227)  
+at async PackerDriver._startBuildIteration (E:\cocoseditors\Creator\3.8.2\resources\app.asar\builtin\programming\dist\packer-driver\packer-driver.ccc:1:9677)  
+at async AsyncIterationConcurrency1._iterate (E:\cocoseditors\Creator\3.8.2\resources\app.asar\builtin\programming\dist\packer-driver\packer-driver.ccc:1:7809)
+2026-2-12 21:30:15 - error: [Programming] {hidden(::PackerDriver::)} SyntaxError: E:\cocoseditors\Creator\3.8.2\data:text\javascript,%0A%2F%2F%20This%20module%20is%20auto-generated%20to%20report%20error%20emitted%20when%20try%20to%20load%20module%20file%3A%2F%2F%2FE%3A%2Fmarchine%2520learning%2Fprojects%2FNewProject%2Fassets%2Fscripts%2FGameManager.ts%20at%20runtime.%0Athrow%20new%20Error(%60SyntaxError%3A%20E%3A%5Ccocoseditors%5CCreator%5C3.8.2%5Cfile%3A%5CE%3A%5Cmarchine%2520learning%5Cprojects%5CNewProject%5Cassets%5Cscripts%5CGameManager.ts%3A%20Invalid%20left-hand%20side%20in%20assignment%20expression.%20(82%3A8)%0A%0A%20%2080%20%7C%0A%20%2081%20%7C%20%20%20%20%20%20%20%20%20%2F%2F%204.%20%E4%B8%BB%E7%89%8C%E5%8C%BA%E7%A6%81%E7%94%A8%E8%BF%99%E5%BC%A0%E7%89%8C%0A%3E%2082%20%7C%20%20%20%20%20%20%20%20%20mainNode.getComponent(Button)%3F.interactable%20%3D%20false%3B%0A%20%20%20%20%20%7C%20%20%20%20%20%20%20%20%20%5E%0A%20%2083%20%7C%20%20%20%20%20%7D%0A%20%2084%20%7C%0A%20%2085%20%7C%20%20%20%20%20%2F%2F%20%E5%88%B7%E6%96%B0%E5%BA%95%E7%89%8C%E6%98%BE%E7%A4%BA%60)%3B%0A%20%20%20%20%20%20%20%20: Invalid escape sequence in template. (3:54)
+
+  1 |
+  2 | // This module is auto-generated to report error emitted when try to load module file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts at runtime.
+> 3 | throw new Error(`SyntaxError: E:\cocoseditors\Creator\3.8.2\file:\E:\marchine%20learning\projects\NewProject\assets\scripts\GameManager.ts: Invalid left-hand side in assignment expression. (82:8)
+    |                                                       ^
+  4 |
+  5 |   80 |
+  6 |   81 |         // 4. 主牌区禁用这张牌
+    at constructor (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:348:19)
+    at TypeScriptParserMixin.raise (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:3202:19)
+    at TypeScriptParserMixin.parseTemplateElement (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:11563:14)
+    at TypeScriptParserMixin.parseTemplate (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:11584:23)
+    at TypeScriptParserMixin.parseExprAtom (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:11143:21)
+    at TypeScriptParserMixin.parseExprSubscripts (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10839:23)
+    at TypeScriptParserMixin.parseUpdate (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10822:21)
+    at TypeScriptParserMixin.parseMaybeUnary (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10798:23)
+    at TypeScriptParserMixin.parseMaybeUnary (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:9682:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10636:61)
+    at TypeScriptParserMixin.parseExprOps (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10641:23)
+    at TypeScriptParserMixin.parseMaybeConditional (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10618:23)
+    at TypeScriptParserMixin.parseMaybeAssign (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10579:21)
+    at TypeScriptParserMixin.parseMaybeAssign (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:9629:20)
+    at E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10549:39
+    at TypeScriptParserMixin.allowInAnd (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:12229:12)
+    at TypeScriptParserMixin.parseMaybeAssignAllowIn (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10549:17)
+    at TypeScriptParserMixin.parseExprListItem (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:11981:18)
+    at TypeScriptParserMixin.parseExprList (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:11953:22)
+    at TypeScriptParserMixin.parseNew (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:11536:25)
+    at TypeScriptParserMixin.parseNewOrNewTarget (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:11531:17)
+    at TypeScriptParserMixin.parseExprAtom (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:11140:21)
+    at TypeScriptParserMixin.parseExprSubscripts (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10839:23)
+    at TypeScriptParserMixin.parseUpdate (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10822:21)
+    at TypeScriptParserMixin.parseMaybeUnary (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10798:23)
+    at TypeScriptParserMixin.parseMaybeUnary (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:9682:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10636:61)
+    at TypeScriptParserMixin.parseExprOps (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10641:23)
+    at TypeScriptParserMixin.parseMaybeConditional (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10618:23)
+    at TypeScriptParserMixin.parseMaybeAssign (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10579:21)
+    at TypeScriptParserMixin.parseMaybeAssign (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:9629:20)
+    at TypeScriptParserMixin.parseExpressionBase (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10533:23)
+    at E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10529:39
+    at TypeScriptParserMixin.allowInAnd (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:12224:16)
+    at TypeScriptParserMixin.parseExpression (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10529:17)
+    at TypeScriptParserMixin.parseThrowStatement (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:13001:26)
+    at TypeScriptParserMixin.parseStatementContent (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:12570:21)
+    at TypeScriptParserMixin.parseStatementContent (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:9326:18)
+    at TypeScriptParserMixin.parseStatementLike (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:12533:17)
+    at TypeScriptParserMixin.parseModuleItem (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:12510:17)
+    at TypeScriptParserMixin.parseBlockOrModuleBlockBody (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:13134:36)
+    at TypeScriptParserMixin.parseBlockBody (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:13127:10)
+    at TypeScriptParserMixin.parseProgram (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:12409:10)
+    at TypeScriptParserMixin.parseTopLevel (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:12399:25)
+    at TypeScriptParserMixin.parse (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:14295:10)
+    at TypeScriptParserMixin.parse (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:9968:18)
+    at parse (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:14336:38)
+    at parser (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\core\lib\parser\index.js:41:34)
+    at parser.next (<anonymous>)
+    at normalizeFile (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\core\lib\transformation\normalize-file.js:64:37) {
+  code: 'BABEL_PARSE_ERROR',
+  reasonCode: 'InvalidEscapeSequenceTemplate',
+  loc: Position { line: 3, column: 54, index: 229 },
+  pos: 229,
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"code":"BABEL_PARSE_ERROR","level":"error","loc":{"column":54,"index":229,"line":3},"pos":229,"reasonCode":"InvalidEscapeSequenceTemplate"}'
+}[Programming] {hidden(::PackerDriver::)} SyntaxError: E:\cocoseditors\Creator\3.8.2\data:text\javascript,%0A%2F%2F%20This%20module%20is%20auto-generated%20to%20report%20error%20emitted%20when%20try%20to%20load%20module%20file%3A%2F%2F%2FE%3A%2Fmarchine%2520learning%2Fprojects%2FNewProject%2Fassets%2Fscripts%2FGameManager.ts%20at%20runtime.%0Athrow%20new%20Error(%60SyntaxError%3A%20E%3A%5Ccocoseditors%5CCreator%5C3.8.2%5Cfile%3A%5CE%3A%5Cmarchine%2520learning%5Cprojects%5CNewProject%5Cassets%5Cscripts%5CGameManager.ts%3A%20Invalid%20left-hand%20side%20in%20assignment%20expression.%20(82%3A8)%0A%0A%20%2080%20%7C%0A%20%2081%20%7C%20%20%20%20%20%20%20%20%20%2F%2F%204.%20%E4%B8%BB%E7%89%8C%E5%8C%BA%E7%A6%81%E7%94%A8%E8%BF%99%E5%BC%A0%E7%89%8C%0A%3E%2082%20%7C%20%20%20%20%20%20%20%20%20mainNode.getComponent(Button)%3F.interactable%20%3D%20false%3B%0A%20%20%20%20%20%7C%20%20%20%20%20%20%20%20%20%5E%0A%20%2083%20%7C%20%20%20%20%20%7D%0A%20%2084%20%7C%0A%20%2085%20%7C%20%20%20%20%20%2F%2F%20%E5%88%B7%E6%96%B0%E5%BA%95%E7%89%8C%E6%98%BE%E7%A4%BA%60)%3B%0A%20%20%20%20%20%20%20%20: Invalid escape sequence in template. (3:54)
+
+  1 |
+  2 | // This module is auto-generated to report error emitted when try to load module file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts at runtime.
+> 3 | throw new Error(`SyntaxError: E:\cocoseditors\Creator\3.8.2\file:\E:\marchine%20learning\projects\NewProject\assets\scripts\GameManager.ts: Invalid left-hand side in assignment expression. (82:8)
+    |                                                       ^
+  4 |
+  5 |   80 |
+  6 |   81 |         // 4. 主牌区禁用这张牌
+    at constructor (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:348:19)
+    at TypeScriptParserMixin.raise (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:3202:19)
+    at TypeScriptParserMixin.parseTemplateElement (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:11563:14)
+    at TypeScriptParserMixin.parseTemplate (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:11584:23)
+    at TypeScriptParserMixin.parseExprAtom (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:11143:21)
+    at TypeScriptParserMixin.parseExprSubscripts (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10839:23)
+    at TypeScriptParserMixin.parseUpdate (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10822:21)
+    at TypeScriptParserMixin.parseMaybeUnary (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10798:23)
+    at TypeScriptParserMixin.parseMaybeUnary (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:9682:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10636:61)
+    at TypeScriptParserMixin.parseExprOps (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10641:23)
+    at TypeScriptParserMixin.parseMaybeConditional (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10618:23)
+    at TypeScriptParserMixin.parseMaybeAssign (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10579:21)
+    at TypeScriptParserMixin.parseMaybeAssign (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:9629:20)
+    at E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10549:39
+    at TypeScriptParserMixin.allowInAnd (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:12229:12)
+    at TypeScriptParserMixin.parseMaybeAssignAllowIn (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10549:17)
+    at TypeScriptParserMixin.parseExprListItem (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:11981:18)
+    at TypeScriptParserMixin.parseExprList (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:11953:22)
+    at TypeScriptParserMixin.parseNew (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:11536:25)
+    at TypeScriptParserMixin.parseNewOrNewTarget (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:11531:17)
+    at TypeScriptParserMixin.parseExprAtom (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:11140:21)
+    at TypeScriptParserMixin.parseExprSubscripts (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10839:23)
+    at TypeScriptParserMixin.parseUpdate (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10822:21)
+    at TypeScriptParserMixin.parseMaybeUnary (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10798:23)
+    at TypeScriptParserMixin.parseMaybeUnary (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:9682:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10636:61)
+    at TypeScriptParserMixin.parseExprOps (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10641:23)
+    at TypeScriptParserMixin.parseMaybeConditional (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10618:23)
+    at TypeScriptParserMixin.parseMaybeAssign (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10579:21)
+    at TypeScriptParserMixin.parseMaybeAssign (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:9629:20)
+    at TypeScriptParserMixin.parseExpressionBase (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10533:23)
+    at E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10529:39
+    at TypeScriptParserMixin.allowInAnd (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:12224:16)
+    at TypeScriptParserMixin.parseExpression (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10529:17)
+    at TypeScriptParserMixin.parseThrowStatement (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:13001:26)
+    at TypeScriptParserMixin.parseStatementContent (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:12570:21)
+    at TypeScriptParserMixin.parseStatementContent (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:9326:18)
+    at TypeScriptParserMixin.parseStatementLike (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:12533:17)
+    at TypeScriptParserMixin.parseModuleItem (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:12510:17)
+    at TypeScriptParserMixin.parseBlockOrModuleBlockBody (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:13134:36)
+    at TypeScriptParserMixin.parseBlockBody (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:13127:10)
+    at TypeScriptParserMixin.parseProgram (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:12409:10)
+    at TypeScriptParserMixin.parseTopLevel (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:12399:25)
+    at TypeScriptParserMixin.parse (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:14295:10)
+    at TypeScriptParserMixin.parse (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:9968:18)
+    at parse (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:14336:38)
+    at parser (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\core\lib\parser\index.js:41:34)
+    at parser.next (<anonymous>)
+    at normalizeFile (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\core\lib\transformation\normalize-file.js:64:37) {
+  code: 'BABEL_PARSE_ERROR',
+  reasonCode: 'InvalidEscapeSequenceTemplate',
+  loc: Position { line: 3, column: 54, index: 229 },
+  pos: 229,
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"code":"BABEL_PARSE_ERROR","level":"error","loc":{"column":54,"index":229,"line":3},"pos":229,"reasonCode":"InvalidEscapeSequenceTemplate"}'
+}  
+|                                                       ^  
+4 |  
+5 |   80 |  
+6 |   81 |         // 4. 主牌区禁用这张牌  
+at constructor (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:348:19)  
+at TypeScriptParserMixin.raise (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:3202:19)  
+at TypeScriptParserMixin.parseTemplateElement (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:11563:14)  
+at TypeScriptParserMixin.parseTemplate (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:11584:23)  
+at TypeScriptParserMixin.parseExprAtom (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:11143:21)  
+at TypeScriptParserMixin.parseExprSubscripts (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10839:23)  
+at TypeScriptParserMixin.parseUpdate (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10822:21)  
+at TypeScriptParserMixin.parseMaybeUnary (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10798:23)  
+at TypeScriptParserMixin.parseMaybeUnary (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:9682:18)  
+at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10636:61)  
+at TypeScriptParserMixin.parseExprOps (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10641:23)  
+at TypeScriptParserMixin.parseMaybeConditional (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10618:23)  
+at TypeScriptParserMixin.parseMaybeAssign (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10579:21)  
+at TypeScriptParserMixin.parseMaybeAssign (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:9629:20)  
+at E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10549:39  
+at TypeScriptParserMixin.allowInAnd (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:12229:12)  
+at TypeScriptParserMixin.parseMaybeAssignAllowIn (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10549:17)  
+at TypeScriptParserMixin.parseExprListItem (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:11981:18)  
+at TypeScriptParserMixin.parseExprList (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:11953:22)  
+at TypeScriptParserMixin.parseNew (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:11536:25)  
+at TypeScriptParserMixin.parseNewOrNewTarget (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:11531:17)  
+at TypeScriptParserMixin.parseExprAtom (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:11140:21)  
+at TypeScriptParserMixin.parseExprSubscripts (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10839:23)  
+at TypeScriptParserMixin.parseUpdate (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10822:21)  
+at TypeScriptParserMixin.parseMaybeUnary (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10798:23)  
+at TypeScriptParserMixin.parseMaybeUnary (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:9682:18)  
+at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10636:61)  
+at TypeScriptParserMixin.parseExprOps (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10641:23)  
+at TypeScriptParserMixin.parseMaybeConditional (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10618:23)  
+at TypeScriptParserMixin.parseMaybeAssign (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10579:21)  
+at TypeScriptParserMixin.parseMaybeAssign (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:9629:20)  
+at TypeScriptParserMixin.parseExpressionBase (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10533:23)  
+at E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10529:39  
+at TypeScriptParserMixin.allowInAnd (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:12224:16)  
+at TypeScriptParserMixin.parseExpression (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:10529:17)  
+at TypeScriptParserMixin.parseThrowStatement (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:13001:26)  
+at TypeScriptParserMixin.parseStatementContent (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:12570:21)  
+at TypeScriptParserMixin.parseStatementContent (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:9326:18)  
+at TypeScriptParserMixin.parseStatementLike (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:12533:17)  
+at TypeScriptParserMixin.parseModuleItem (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:12510:17)  
+at TypeScriptParserMixin.parseBlockOrModuleBlockBody (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:13134:36)  
+at TypeScriptParserMixin.parseBlockBody (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:13127:10)  
+at TypeScriptParserMixin.parseProgram (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:12409:10)  
+at TypeScriptParserMixin.parseTopLevel (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:12399:25)  
+at TypeScriptParserMixin.parse (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:14295:10)  
+at TypeScriptParserMixin.parse (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:9968:18)  
+at parse (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\parser\lib\index.js:14336:38)  
+at parser (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\core\lib\parser\index.js:41:34)  
+at parser.next (<anonymous>)  
+at normalizeFile (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@babel\core\lib\transformation\normalize-file.js:64:37) {  
+code: 'BABEL_PARSE_ERROR',  
+reasonCode: 'InvalidEscapeSequenceTemplate',  
+loc: Position { line: 3, column: 54, index: 229 },  
+pos: 229,  
+level: 'error',  
+[Symbol(level)]: 'error',  
+[Symbol(message)]: '{"code":"BABEL_PARSE_ERROR","level":"error","loc":{"column":54,"index":229,"line":3},"pos":229,"reasonCode":"InvalidEscapeSequenceTemplate"}'  
+}  
+at Object.encode (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@base\electron-worker\node_modules\v-stacks\index.js:14:17)  
+at Logger._logHandler (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@base\electron-worker\static\script.ccc:1:531)  
+at Logger.record (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:458)  
+at console.error (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:1414)  
+at PackerDriverLogger.error (E:\cocoseditors\Creator\3.8.2\resources\app.asar\builtin\programming\dist\packer-driver\logger.ccc:1:1103)  
+at E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@cocos\creator-programming-quick-pack\lib\quick-pack.js:188:26  
+at async QuickPack._inspectWithCache (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@cocos\creator-programming-quick-pack\lib\quick-pack.js:187:30)  
+at async QuickPack._getOrCreateInspectRecord (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@cocos\creator-programming-quick-pack\lib\quick-pack.js:147:13)  
+at async E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@cocos\creator-programming-quick-pack\lib\quick-pack.js:242:35  
+at async E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@cocos\creator-programming-common\lib\launch-policy.js:9:30  
+at async QuickPack._link (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@cocos\creator-programming-quick-pack\lib\quick-pack.js:206:28)  
+at async E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@cocos\creator-programming-quick-pack\lib\quick-pack.js:134:42  
+at async QuickPack._getOrCreateInspectRecord (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@cocos\creator-programming-quick-pack\lib\quick-pack.js:147:13)  
+at async QuickPack.build (E:\cocoseditors\Creator\3.8.2\resources\app.asar\node_modules\@cocos\creator-programming-quick-pack\lib\quick-pack.js:56:35)  
+at async PackTarget.build (E:\cocoseditors\Creator\3.8.2\resources\app.asar\builtin\programming\dist\packer-driver\packer-driver.ccc:1:14793)  
+at async PackerDriver._startBuildIteration (E:\cocoseditors\Creator\3.8.2\resources\app.asar\builtin\programming\dist\packer-driver\packer-driver.ccc:1:9677)  
+at async AsyncIterationConcurrency1._iterate (E:\cocoseditors\Creator\3.8.2\resources\app.asar\builtin\programming\dist\packer-driver\packer-driver.ccc:1:7809)
+2026-2-12 21:30:14 - warn: [Scene] Missing class: 90b23Nd73VF1K0ZmqcYuNGIError: [Scene] Missing class: 90b23Nd73VF1K0ZmqcYuNGI
+    at Object.classFinder (E:\cocoseditors\Creator\3.8.2\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:1:2381)
+    at _Deserializer.classFinder [as _classFinder] (E:\cocoseditors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:106979:34)
+    at _Deserializer._deserializeTypeTaggedObject (E:\cocoseditors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:46654:30)
+    at _Deserializer._deserializeObject (E:\cocoseditors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:46608:29)
+    at _Deserializer._deserializeAndAssignField (E:\cocoseditors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:46775:38)
+    at _Deserializer._deserializeArray (E:\cocoseditors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:46636:40)
+    at _Deserializer._deserializeObject (E:\cocoseditors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:46614:29)
+2026-2-12 21:30:15 - warn: [Scene] Missing class: 90b23Nd73VF1K0ZmqcYuNGIError: [Scene] Missing class: 90b23Nd73VF1K0ZmqcYuNGI
+    at Object.classFinder (E:\cocoseditors\Creator\3.8.2\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:1:2381)
+    at _Deserializer.classFinder [as _classFinder] (E:\cocoseditors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:106979:34)
+    at _Deserializer._deserializeTypeTaggedObject (E:\cocoseditors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:46654:30)
+    at _Deserializer._deserializeObject (E:\cocoseditors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:46608:29)
+    at _Deserializer._deserializeAndAssignField (E:\cocoseditors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:46775:38)
+    at _Deserializer._deserializeArray (E:\cocoseditors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:46636:40)
+    at _Deserializer._deserializeObject (E:\cocoseditors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:46614:29)
+2026-2-12 21:30:15 - error: [Programming] {hidden(::PackerDriver::)} TypeError: Cannot read property 'resolutions' of null[Programming] {hidden(::PackerDriver::)} TypeError: Cannot read property 'resolutions' of null  
+at PackerDriverLogger.error (E:\cocoseditors\Creator\3.8.2\resources\app.asar\builtin\programming\dist\packer-driver\logger.ccc:1:1103)  
+at PackTarget.build (E:\cocoseditors\Creator\3.8.2\resources\app.asar\builtin\programming\dist\packer-driver\packer-driver.ccc:1:14936)  
+at async PackerDriver._startBuildIteration (E:\cocoseditors\Creator\3.8.2\resources\app.asar\builtin\programming\dist\packer-driver\packer-driver.ccc:1:9677)  
+at async AsyncIterationConcurrency1._iterate (E:\cocoseditors\Creator\3.8.2\resources\app.asar\builtin\programming\dist\packer-driver\packer-driver.ccc:1:7809)
+2026-2-12 21:30:15 - warn: [Programming] Cannot get build result from quick pack.[Programming] Cannot get build result from quick pack.  
+at PackTarget.build (E:\cocoseditors\Creator\3.8.2\resources\app.asar\builtin\programming\dist\packer-driver\packer-driver.ccc:1:15227)  
+at async PackerDriver._startBuildIteration (E:\cocoseditors\Creator\3.8.2\resources\app.asar\builtin\programming\dist\packer-driver\packer-driver.ccc:1:9677)  
+at async AsyncIterationConcurrency1._iterate (E:\cocoseditors\Creator\3.8.2\resources\app.asar\builtin\programming\dist\packer-driver\packer-driver.ccc:1:7809)
+2026-2-12 21:30:15 - error: [Scene] Script "90b23Nd73VF1K0ZmqcYuNGI" attached to "GameManager" is missing or invalid. Detailed information:
+Node path: "Canvas/GameManager"
+Script UUID: "90b2335d-ef75-45d4-ad19-9aa718b8d188"
+Class ID: "90b23Nd73VF1K0ZmqcYuNGI"
+Error: [Scene] Script "90b23Nd73VF1K0ZmqcYuNGI" attached to "GameManager" is missing or invalid. Detailed information:
+Node path: "Canvas/GameManager"
+Script UUID: "90b2335d-ef75-45d4-ad19-9aa718b8d188"
+Class ID: "90b23Nd73VF1K0ZmqcYuNGI"
+
+    at report (E:\cocoseditors\Creator\3.8.2\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:1:1393)
+    at reportByWalker (E:\cocoseditors\Creator\3.8.2\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:1:1606)
+2026-2-12 21:30:15 - error: [Scene] Script "90b23Nd73VF1K0ZmqcYuNGI" attached to "Canvas" is missing or invalid. Detailed information:
+Node path: "Canvas"
+Script UUID: "90b2335d-ef75-45d4-ad19-9aa718b8d188"
+Class ID: "90b23Nd73VF1K0ZmqcYuNGI"
+Error: [Scene] Script "90b23Nd73VF1K0ZmqcYuNGI" attached to "Canvas" is missing or invalid. Detailed information:
+Node path: "Canvas"
+Script UUID: "90b2335d-ef75-45d4-ad19-9aa718b8d188"
+Class ID: "90b23Nd73VF1K0ZmqcYuNGI"
+
+    at report (E:\cocoseditors\Creator\3.8.2\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:1:1393)
+    at reportByWalker (E:\cocoseditors\Creator\3.8.2\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:1:1606)

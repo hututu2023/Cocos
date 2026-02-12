@@ -1,0 +1,12 @@
+{
+    "systemInfo": {
+        "arch": "x64",
+        "cpu": "AMD Ryzen 7 3750H with Radeon Vega Mobile Gfx  ",
+        "version": "Windows 10 Home China"
+    },
+    "sceneListMap": {
+        "e29343cc-c418-4a99-89b2-ac843b3b0992": "E:\\marchine learning\\projects\\NewProject\\assets\\scene.scene",
+        "d2b385cb-cf21-4863-a219-892d6ed29dd0": "E:\\marchine learning\\projects\\NewProject\\assets\\prefabs\\Card.prefab"
+    },
+    "deviceMd5": "f8938c98b4711d0ec6c8ce1937e1ab48"
+}

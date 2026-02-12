@@ -1,0 +1,747 @@
+20:00:24 debug: 2026/2/12下午8:00:24
+20:00:24 debug: Project: E:\marchine learning\projects\NewProject
+20:00:24 debug: Targets: editor,preview
+20:00:24 debug: Incremental file seems great.
+20:00:24 debug: Engine path: E:\cocoseditors\Creator\3.8.2\resources\resources\3d\engine
+20:00:24 debug: Initializing target [Editor]
+20:00:24 debug: Loading cache
+20:00:24 debug: Loading cache costs 11.67379999998957ms.
+20:00:24 debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,gfx-empty,3d,animation,skeletal-animation,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,physics-2d-box2d-wasm,intersection-2d,primitive,profiler,occlusion-query,geometry-renderer,debug-renderer,audio,video,xr,light-probe,terrain,webview,tween,tiled-map,spine,dragon-bones,marionette,procedural-animation,custom-pipeline,websocket,websocket-server
+20:00:24 debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc"
+  }
+}
+20:00:24 debug: Initializing target [Preview]
+20:00:24 debug: Loading cache
+20:00:24 debug: Loading cache costs 5.039900000090711ms.
+20:00:24 debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc"
+  }
+}
+20:00:25 debug: Sync engine features: 2d,3d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,light-probe,marionette,particle,particle-2d,physics-2d-box2d,physics-ammo,primitive,profiler,skeletal-animation,spine,terrain,tiled-map,tween,ui,video,websocket,webview
+20:00:25 debug: Reset databases. Enumerated domains: [
+  {
+    "root": "db://internal/",
+    "physical": "E:\\cocoseditors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets"
+  },
+  {
+    "root": "db://assets/",
+    "physical": "E:\\marchine learning\\projects\\NewProject\\assets"
+  }
+]
+20:00:25 debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc",
+    "db://internal/": "file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/",
+    "db://assets/": "file:///E:/marchine%20learning/projects/NewProject/assets/"
+  }
+}
+20:00:25 debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc",
+    "db://internal/": "file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/",
+    "db://assets/": "file:///E:/marchine%20learning/projects/NewProject/assets/"
+  }
+}
+20:00:25 debug: Pulling asset-db.
+20:00:25 debug: Fetch asset-db cost: 33.22970000002533ms.
+20:00:25 debug: Build iteration starts.
+Number of accumulated asset changes: 5
+Feature changed: false
+20:00:25 debug: Target(editor) build started.
+20:00:25 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:13 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:15 GMT+0800 (中国标准时间)
+20:00:25 debug: Inspect cce:/internal/x/cc
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/gfx-empty from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-empty.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/skeletal-animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/skeletal-animation.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d-wasm from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d-wasm.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/geometry-renderer from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/geometry-renderer.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/xr from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/xr.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/light-probe from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/light-probe.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/terrain.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
+20:00:25 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Fri Jan 02 1970 00:52:25 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:15 GMT+0800 (中国标准时间)
+20:00:25 debug: Inspect cce:/internal/x/prerequisite-imports
+20:00:25 debug: Resolve file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+20:00:25 debug: Resolve cc from file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+20:00:25 debug: Resolve cc from file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+20:00:25 debug: Resolve cc from file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+20:00:25 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts.
+20:00:25 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts as cce:/internal/x/cc.
+20:00:25 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts as cce:/internal/x/cc.
+20:00:25 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts as cce:/internal/x/cc.
+20:00:25 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+20:00:25 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts as cce:/internal/x/cc.
+20:00:25 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts as cce:/internal/x/cc.
+20:00:25 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts as cce:/internal/x/cc.
+20:00:25 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts.
+20:00:25 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts as cce:/internal/code-quality/cr.mjs.
+20:00:25 debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Wed Feb 11 2026 07:33:35 GMT+0800 (中国标准时间), Current mtime: Thu Feb 12 2026 20:00:09 GMT+0800 (中国标准时间)
+20:00:25 debug: Inspect cce:/internal/code-quality/cr.mjs
+20:00:25 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts as cce:/internal/x/cc.
+20:00:25 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts as cce:/internal/x/cc.
+20:00:25 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts as cce:/internal/x/cc.
+20:00:25 debug: Resolve ./CardModel from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts.
+20:00:25 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts.
+20:00:25 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/code-quality/cr.mjs.
+20:00:25 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+20:00:25 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+20:00:25 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+20:00:25 debug: Resolve ./CardView from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+20:00:25 debug: Target(editor) ends with cost 322.5997999999672ms.
+20:00:25 debug: Target(preview) build started.
+20:00:25 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:13 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:15 GMT+0800 (中国标准时间)
+20:00:25 debug: Inspect cce:/internal/x/cc
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/light-probe from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/light-probe.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/physics-ammo from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-ammo.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/wait-for-ammo-instantiation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/wait-for-ammo-instantiation.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/skeletal-animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/skeletal-animation.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/terrain.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+20:00:25 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+20:00:25 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Fri Jan 02 1970 00:52:25 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:15 GMT+0800 (中国标准时间)
+20:00:25 debug: Inspect cce:/internal/x/prerequisite-imports
+20:00:25 debug: Resolve file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+20:00:25 debug: Resolve cc from file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+20:00:25 debug: Resolve cc from file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+20:00:25 debug: Resolve cc from file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+20:00:25 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts.
+20:00:25 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts as cce:/internal/x/cc.
+20:00:25 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts as cce:/internal/x/cc.
+20:00:25 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts as cce:/internal/x/cc.
+20:00:25 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+20:00:25 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts as cce:/internal/x/cc.
+20:00:25 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts as cce:/internal/x/cc.
+20:00:25 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts as cce:/internal/x/cc.
+20:00:25 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts.
+20:00:25 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts as cce:/internal/code-quality/cr.mjs.
+20:00:25 debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Wed Feb 11 2026 07:33:35 GMT+0800 (中国标准时间), Current mtime: Thu Feb 12 2026 20:00:09 GMT+0800 (中国标准时间)
+20:00:25 debug: Inspect cce:/internal/code-quality/cr.mjs
+20:00:25 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts as cce:/internal/x/cc.
+20:00:25 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts as cce:/internal/x/cc.
+20:00:25 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts as cce:/internal/x/cc.
+20:00:25 debug: Resolve ./CardModel from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts.
+20:00:25 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts.
+20:00:25 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/code-quality/cr.mjs.
+20:00:25 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+20:00:25 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+20:00:25 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+20:00:25 debug: Resolve ./CardView from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+20:00:25 debug: Target(preview) ends with cost 267.95160000002943ms.
+20:00:26 debug: Pulling asset-db.
+20:00:27 debug: Fetch asset-db cost: 1272.1367000000319ms.
+20:00:27 debug: Build iteration starts.
+Number of accumulated asset changes: 5
+Feature changed: false
+20:00:27 debug: Target(editor) build started.
+20:00:27 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:15 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:17 GMT+0800 (中国标准时间)
+20:00:27 debug: Inspect cce:/internal/x/prerequisite-imports
+20:00:27 debug: Resolve file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+20:00:27 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts.
+20:00:27 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+20:00:27 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts.
+20:00:27 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts.
+20:00:27 debug: Target(editor) ends with cost 79.31890000007115ms.
+20:00:27 debug: Target(preview) build started.
+20:00:27 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:15 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:17 GMT+0800 (中国标准时间)
+20:00:27 debug: Inspect cce:/internal/x/prerequisite-imports
+20:00:27 debug: Resolve file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+20:00:27 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts.
+20:00:27 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+20:00:27 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts.
+20:00:27 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts.
+20:00:27 debug: Target(preview) ends with cost 87.76850000000559ms.
+20:35:55 debug: Dispatch build request for time accumulated 1 asset changes.
+20:35:55 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+20:35:55 debug: Target(editor) build started.
+20:35:55 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:17 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:35:50 GMT+0800 (中国标准时间)
+20:35:55 debug: Inspect cce:/internal/x/prerequisite-imports
+20:35:56 debug: Resolve file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+20:35:56 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts.
+20:35:56 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+20:35:56 debug: Detected change: file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts. Last mtime: Thu Feb 12 2026 00:16:58 GMT+0800 (中国标准时间)@dcc2b037-2310-4e9b-9322-0114997a348e, Current mtime: Thu Feb 12 2026 20:35:35 GMT+0800 (中国标准时间)@dcc2b037-2310-4e9b-9322-0114997a348e
+20:35:56 debug: Inspect file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts
+20:35:56 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts as cce:/internal/x/cc.
+20:35:56 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts as cce:/internal/x/cc.
+20:35:56 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts as cce:/internal/x/cc.
+20:35:56 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts.
+20:35:56 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts.
+20:35:56 debug: Target(editor) ends with cost 268.490399999544ms.
+20:35:56 debug: Target(preview) build started.
+20:35:56 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:17 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:35:51 GMT+0800 (中国标准时间)
+20:35:56 debug: Inspect cce:/internal/x/prerequisite-imports
+20:35:56 debug: Resolve file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+20:35:56 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts.
+20:35:56 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+20:35:56 debug: Detected change: file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts. Last mtime: Thu Feb 12 2026 00:16:58 GMT+0800 (中国标准时间)@dcc2b037-2310-4e9b-9322-0114997a348e, Current mtime: Thu Feb 12 2026 20:35:35 GMT+0800 (中国标准时间)@dcc2b037-2310-4e9b-9322-0114997a348e
+20:35:56 debug: Inspect file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts
+20:35:56 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts as cce:/internal/x/cc.
+20:35:56 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts as cce:/internal/x/cc.
+20:35:56 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts as cce:/internal/x/cc.
+20:35:56 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts.
+20:35:56 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts.
+20:35:56 debug: Target(preview) ends with cost 267.530199999921ms.
+20:36:59 debug: Dispatch build request for time accumulated 1 asset changes.
+20:36:59 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+20:36:59 debug: Target(editor) build started.
+20:36:59 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:35:50 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:36:54 GMT+0800 (中国标准时间)
+20:36:59 debug: Inspect cce:/internal/x/prerequisite-imports
+20:36:59 debug: Resolve file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+20:36:59 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts.
+20:36:59 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+20:36:59 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts.
+20:36:59 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts.
+20:36:59 debug: Detected change: file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts. Last mtime: Thu Feb 12 2026 00:25:57 GMT+0800 (中国标准时间)@90b2335d-ef75-45d4-ad19-9aa718b8d188, Current mtime: Thu Feb 12 2026 20:36:56 GMT+0800 (中国标准时间)@90b2335d-ef75-45d4-ad19-9aa718b8d188
+20:36:59 debug: Inspect file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts
+20:36:59 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/code-quality/cr.mjs.
+20:36:59 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+20:36:59 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+20:36:59 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+20:36:59 debug: Resolve ./CardView from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+20:36:59 debug: Target(editor) ends with cost 206.7616999996826ms.
+20:36:59 debug: Target(preview) build started.
+20:36:59 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:35:51 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:36:54 GMT+0800 (中国标准时间)
+20:36:59 debug: Inspect cce:/internal/x/prerequisite-imports
+20:36:59 debug: Resolve file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+20:36:59 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts.
+20:36:59 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+20:36:59 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts.
+20:36:59 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts.
+20:36:59 debug: Detected change: file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts. Last mtime: Thu Feb 12 2026 00:25:57 GMT+0800 (中国标准时间)@90b2335d-ef75-45d4-ad19-9aa718b8d188, Current mtime: Thu Feb 12 2026 20:36:56 GMT+0800 (中国标准时间)@90b2335d-ef75-45d4-ad19-9aa718b8d188
+20:36:59 debug: Inspect file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts
+20:36:59 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/code-quality/cr.mjs.
+20:36:59 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+20:36:59 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+20:36:59 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+20:36:59 debug: Resolve ./CardView from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+20:36:59 debug: Target(preview) ends with cost 400.39300000015646ms.
+20:44:31 debug: Dispatch build request for time accumulated 1 asset changes.
+20:44:31 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+20:44:31 debug: Target(editor) build started.
+20:44:31 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:36:54 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:44:26 GMT+0800 (中国标准时间)
+20:44:31 debug: Inspect cce:/internal/x/prerequisite-imports
+20:44:31 debug: Resolve file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+20:44:31 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts.
+20:44:31 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+20:44:31 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts.
+20:44:31 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts.
+20:44:31 debug: Detected change: file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts. Last mtime: Thu Feb 12 2026 20:36:56 GMT+0800 (中国标准时间)@90b2335d-ef75-45d4-ad19-9aa718b8d188, Current mtime: Thu Feb 12 2026 20:44:29 GMT+0800 (中国标准时间)@90b2335d-ef75-45d4-ad19-9aa718b8d188
+20:44:31 debug: Inspect file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts
+20:44:31 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/code-quality/cr.mjs.
+20:44:31 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+20:44:31 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+20:44:31 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+20:44:31 debug: Resolve ./CardView from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+20:44:31 debug: Target(editor) ends with cost 220.0463999994099ms.
+20:44:31 debug: Target(preview) build started.
+20:44:31 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:36:54 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:44:26 GMT+0800 (中国标准时间)
+20:44:31 debug: Inspect cce:/internal/x/prerequisite-imports
+20:44:32 debug: Resolve file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+20:44:32 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts.
+20:44:32 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+20:44:32 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts.
+20:44:32 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts.
+20:44:32 debug: Detected change: file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts. Last mtime: Thu Feb 12 2026 20:36:56 GMT+0800 (中国标准时间)@90b2335d-ef75-45d4-ad19-9aa718b8d188, Current mtime: Thu Feb 12 2026 20:44:29 GMT+0800 (中国标准时间)@90b2335d-ef75-45d4-ad19-9aa718b8d188
+20:44:32 debug: Inspect file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts
+20:44:32 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/code-quality/cr.mjs.
+20:44:32 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+20:44:32 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+20:44:32 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+20:44:32 debug: Resolve ./CardView from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+20:44:32 debug: Target(preview) ends with cost 235.3082999996841ms.
+20:52:02 debug: Dispatch build request for time accumulated 1 asset changes.
+20:52:02 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+20:52:02 debug: Target(editor) build started.
+20:52:02 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:44:26 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:51:56 GMT+0800 (中国标准时间)
+20:52:02 debug: Inspect cce:/internal/x/prerequisite-imports
+20:52:02 debug: Resolve file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+20:52:02 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts.
+20:52:02 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+20:52:02 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts.
+20:52:02 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts.
+20:52:02 debug: Detected change: file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts. Last mtime: Thu Feb 12 2026 20:44:29 GMT+0800 (中国标准时间)@90b2335d-ef75-45d4-ad19-9aa718b8d188, Current mtime: Thu Feb 12 2026 20:51:57 GMT+0800 (中国标准时间)@90b2335d-ef75-45d4-ad19-9aa718b8d188
+20:52:02 debug: Inspect file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts
+20:52:02 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/code-quality/cr.mjs.
+20:52:02 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+20:52:02 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+20:52:02 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+20:52:02 debug: Resolve ./CardView from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+20:52:02 debug: Target(editor) ends with cost 202.83380000013858ms.
+20:52:02 debug: Target(preview) build started.
+20:52:02 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:44:26 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:51:57 GMT+0800 (中国标准时间)
+20:52:02 debug: Inspect cce:/internal/x/prerequisite-imports
+20:52:02 debug: Resolve file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+20:52:02 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts.
+20:52:02 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+20:52:02 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts.
+20:52:02 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts.
+20:52:02 debug: Detected change: file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts. Last mtime: Thu Feb 12 2026 20:44:29 GMT+0800 (中国标准时间)@90b2335d-ef75-45d4-ad19-9aa718b8d188, Current mtime: Thu Feb 12 2026 20:51:57 GMT+0800 (中国标准时间)@90b2335d-ef75-45d4-ad19-9aa718b8d188
+20:52:02 debug: Inspect file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts
+20:52:02 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/code-quality/cr.mjs.
+20:52:02 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+20:52:02 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+20:52:02 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+20:52:02 debug: Resolve ./CardView from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+20:52:02 debug: Target(preview) ends with cost 324.1505999993533ms.
+21:01:19 debug: Dispatch build request for time accumulated 1 asset changes.
+21:01:19 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+21:01:19 debug: Target(editor) build started.
+21:01:19 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:51:56 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:01:13 GMT+0800 (中国标准时间)
+21:01:19 debug: Inspect cce:/internal/x/prerequisite-imports
+21:01:19 debug: Resolve file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+21:01:19 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts.
+21:01:19 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+21:01:19 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts.
+21:01:19 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts.
+21:01:19 debug: Detected change: file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts. Last mtime: Thu Feb 12 2026 20:51:57 GMT+0800 (中国标准时间)@90b2335d-ef75-45d4-ad19-9aa718b8d188, Current mtime: Thu Feb 12 2026 21:01:08 GMT+0800 (中国标准时间)@90b2335d-ef75-45d4-ad19-9aa718b8d188
+21:01:19 debug: Inspect file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts
+21:01:19 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/code-quality/cr.mjs.
+21:01:19 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:01:19 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:01:19 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:01:19 debug: Resolve ./CardView from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+21:01:19 debug: Target(editor) ends with cost 223.43450000043958ms.
+21:01:19 debug: Target(preview) build started.
+21:01:19 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:51:57 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:01:14 GMT+0800 (中国标准时间)
+21:01:19 debug: Inspect cce:/internal/x/prerequisite-imports
+21:01:19 debug: Resolve file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+21:01:19 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts.
+21:01:19 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+21:01:19 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts.
+21:01:19 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts.
+21:01:19 debug: Detected change: file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts. Last mtime: Thu Feb 12 2026 20:51:57 GMT+0800 (中国标准时间)@90b2335d-ef75-45d4-ad19-9aa718b8d188, Current mtime: Thu Feb 12 2026 21:01:08 GMT+0800 (中国标准时间)@90b2335d-ef75-45d4-ad19-9aa718b8d188
+21:01:19 debug: Inspect file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts
+21:01:19 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/code-quality/cr.mjs.
+21:01:19 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:01:19 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:01:19 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:01:19 debug: Resolve ./CardView from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+21:01:19 debug: Target(preview) ends with cost 223.83110000006855ms.
+21:05:03 debug: Dispatch build request for time accumulated 1 asset changes.
+21:05:03 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+21:05:03 debug: Target(editor) build started.
+21:05:03 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:01:13 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:04:58 GMT+0800 (中国标准时间)
+21:05:03 debug: Inspect cce:/internal/x/prerequisite-imports
+21:05:03 debug: Resolve file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+21:05:03 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts.
+21:05:03 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+21:05:03 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts.
+21:05:03 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts.
+21:05:03 debug: Detected change: file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts. Last mtime: Thu Feb 12 2026 21:01:08 GMT+0800 (中国标准时间)@90b2335d-ef75-45d4-ad19-9aa718b8d188, Current mtime: Thu Feb 12 2026 21:05:01 GMT+0800 (中国标准时间)@90b2335d-ef75-45d4-ad19-9aa718b8d188
+21:05:03 debug: Inspect file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts
+21:05:03 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/code-quality/cr.mjs.
+21:05:03 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:05:03 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:05:03 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:05:03 debug: Resolve ./CardView from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+21:05:03 debug: Target(editor) ends with cost 182.25630000047386ms.
+21:05:03 debug: Target(preview) build started.
+21:05:03 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:01:14 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:04:58 GMT+0800 (中国标准时间)
+21:05:03 debug: Inspect cce:/internal/x/prerequisite-imports
+21:05:03 debug: Resolve file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+21:05:03 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts.
+21:05:03 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+21:05:03 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts.
+21:05:03 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts.
+21:05:03 debug: Detected change: file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts. Last mtime: Thu Feb 12 2026 21:01:08 GMT+0800 (中国标准时间)@90b2335d-ef75-45d4-ad19-9aa718b8d188, Current mtime: Thu Feb 12 2026 21:05:01 GMT+0800 (中国标准时间)@90b2335d-ef75-45d4-ad19-9aa718b8d188
+21:05:03 debug: Inspect file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts
+21:05:04 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/code-quality/cr.mjs.
+21:05:04 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:05:04 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:05:04 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:05:04 debug: Resolve ./CardView from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+21:05:04 debug: Target(preview) ends with cost 299.16750000044703ms.
+21:08:31 debug: Dispatch build request for time accumulated 1 asset changes.
+21:08:31 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+21:08:31 debug: Target(editor) build started.
+21:08:31 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:04:58 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:08:26 GMT+0800 (中国标准时间)
+21:08:31 debug: Inspect cce:/internal/x/prerequisite-imports
+21:08:31 debug: Resolve file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+21:08:31 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts.
+21:08:31 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+21:08:31 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts.
+21:08:31 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts.
+21:08:31 debug: Detected change: file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts. Last mtime: Thu Feb 12 2026 21:05:01 GMT+0800 (中国标准时间)@90b2335d-ef75-45d4-ad19-9aa718b8d188, Current mtime: Thu Feb 12 2026 21:08:28 GMT+0800 (中国标准时间)@90b2335d-ef75-45d4-ad19-9aa718b8d188
+21:08:31 debug: Inspect file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts
+21:08:31 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/code-quality/cr.mjs.
+21:08:31 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:08:31 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:08:31 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:08:31 debug: Resolve ./CardView from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+21:08:31 debug: Target(editor) ends with cost 214.11649999953806ms.
+21:08:31 debug: Target(preview) build started.
+21:08:31 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:04:58 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:08:26 GMT+0800 (中国标准时间)
+21:08:31 debug: Inspect cce:/internal/x/prerequisite-imports
+21:08:31 debug: Resolve file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+21:08:31 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts.
+21:08:31 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+21:08:31 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts.
+21:08:31 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts.
+21:08:31 debug: Detected change: file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts. Last mtime: Thu Feb 12 2026 21:05:01 GMT+0800 (中国标准时间)@90b2335d-ef75-45d4-ad19-9aa718b8d188, Current mtime: Thu Feb 12 2026 21:08:28 GMT+0800 (中国标准时间)@90b2335d-ef75-45d4-ad19-9aa718b8d188
+21:08:31 debug: Inspect file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts
+21:08:32 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/code-quality/cr.mjs.
+21:08:32 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:08:32 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:08:32 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:08:32 debug: Resolve ./CardView from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+21:08:32 debug: Target(preview) ends with cost 236.7969000004232ms.
+21:10:32 debug: Dispatch build request for time accumulated 1 asset changes.
+21:10:32 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+21:10:32 debug: Target(editor) build started.
+21:10:32 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:08:26 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:10:27 GMT+0800 (中国标准时间)
+21:10:32 debug: Inspect cce:/internal/x/prerequisite-imports
+21:10:32 debug: Resolve file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+21:10:32 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts.
+21:10:32 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+21:10:32 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts.
+21:10:32 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts.
+21:10:32 debug: Detected change: file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts. Last mtime: Thu Feb 12 2026 21:08:28 GMT+0800 (中国标准时间)@90b2335d-ef75-45d4-ad19-9aa718b8d188, Current mtime: Thu Feb 12 2026 21:10:31 GMT+0800 (中国标准时间)@90b2335d-ef75-45d4-ad19-9aa718b8d188
+21:10:32 debug: Inspect file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts
+21:10:32 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/code-quality/cr.mjs.
+21:10:32 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:10:32 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:10:32 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:10:32 debug: Resolve ./CardView from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+21:10:32 debug: Target(editor) ends with cost 250.6276000002399ms.
+21:10:32 debug: Target(preview) build started.
+21:10:32 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:08:26 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:10:27 GMT+0800 (中国标准时间)
+21:10:32 debug: Inspect cce:/internal/x/prerequisite-imports
+21:10:32 debug: Resolve file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+21:10:32 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts.
+21:10:32 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+21:10:32 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts.
+21:10:32 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts.
+21:10:32 debug: Detected change: file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts. Last mtime: Thu Feb 12 2026 21:08:28 GMT+0800 (中国标准时间)@90b2335d-ef75-45d4-ad19-9aa718b8d188, Current mtime: Thu Feb 12 2026 21:10:31 GMT+0800 (中国标准时间)@90b2335d-ef75-45d4-ad19-9aa718b8d188
+21:10:32 debug: Inspect file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts
+21:10:33 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/code-quality/cr.mjs.
+21:10:33 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:10:33 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:10:33 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:10:33 debug: Resolve ./CardView from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+21:10:33 debug: Target(preview) ends with cost 317.9841999998316ms.
+21:17:31 debug: Dispatch build request for time accumulated 1 asset changes.
+21:17:31 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+21:17:31 debug: Target(editor) build started.
+21:17:31 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:10:27 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:17:26 GMT+0800 (中国标准时间)
+21:17:31 debug: Inspect cce:/internal/x/prerequisite-imports
+21:17:31 debug: Resolve file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+21:17:31 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts.
+21:17:31 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+21:17:31 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts.
+21:17:31 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts.
+21:17:31 debug: Detected change: file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts. Last mtime: Thu Feb 12 2026 21:10:31 GMT+0800 (中国标准时间)@90b2335d-ef75-45d4-ad19-9aa718b8d188, Current mtime: Thu Feb 12 2026 21:17:29 GMT+0800 (中国标准时间)@90b2335d-ef75-45d4-ad19-9aa718b8d188
+21:17:31 debug: Inspect file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts
+21:17:31 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/code-quality/cr.mjs.
+21:17:31 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:17:31 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:17:31 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:17:31 debug: Resolve ./CardView from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+21:17:31 debug: Target(editor) ends with cost 184.41009999997914ms.
+21:17:31 debug: Target(preview) build started.
+21:17:31 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:10:27 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:17:26 GMT+0800 (中国标准时间)
+21:17:31 debug: Inspect cce:/internal/x/prerequisite-imports
+21:17:31 debug: Resolve file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+21:17:31 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts.
+21:17:31 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+21:17:31 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts.
+21:17:31 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts.
+21:17:31 debug: Detected change: file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts. Last mtime: Thu Feb 12 2026 21:10:31 GMT+0800 (中国标准时间)@90b2335d-ef75-45d4-ad19-9aa718b8d188, Current mtime: Thu Feb 12 2026 21:17:29 GMT+0800 (中国标准时间)@90b2335d-ef75-45d4-ad19-9aa718b8d188
+21:17:31 debug: Inspect file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts
+21:17:32 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/code-quality/cr.mjs.
+21:17:32 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:17:32 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:17:32 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:17:32 debug: Resolve ./CardView from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+21:17:32 debug: Target(preview) ends with cost 337.38139999937266ms.
+21:21:16 debug: Dispatch build request for time accumulated 1 asset changes.
+21:21:16 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+21:21:16 debug: Target(editor) build started.
+21:21:16 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:17:26 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:21:11 GMT+0800 (中国标准时间)
+21:21:16 debug: Inspect cce:/internal/x/prerequisite-imports
+21:21:16 debug: Resolve file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+21:21:16 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts.
+21:21:16 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+21:21:16 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts.
+21:21:16 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts.
+21:21:16 debug: Detected change: file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts. Last mtime: Thu Feb 12 2026 21:17:29 GMT+0800 (中国标准时间)@90b2335d-ef75-45d4-ad19-9aa718b8d188, Current mtime: Thu Feb 12 2026 21:21:14 GMT+0800 (中国标准时间)@90b2335d-ef75-45d4-ad19-9aa718b8d188
+21:21:16 debug: Inspect file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts
+21:21:16 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/code-quality/cr.mjs.
+21:21:16 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:21:16 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:21:16 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:21:16 debug: Resolve ./CardView from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+21:21:16 debug: Target(editor) ends with cost 191.041400000453ms.
+21:21:16 debug: Target(preview) build started.
+21:21:16 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:17:26 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:21:11 GMT+0800 (中国标准时间)
+21:21:16 debug: Inspect cce:/internal/x/prerequisite-imports
+21:21:16 debug: Resolve file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+21:21:16 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts.
+21:21:16 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+21:21:16 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts.
+21:21:16 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts.
+21:21:16 debug: Detected change: file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts. Last mtime: Thu Feb 12 2026 21:17:29 GMT+0800 (中国标准时间)@90b2335d-ef75-45d4-ad19-9aa718b8d188, Current mtime: Thu Feb 12 2026 21:21:14 GMT+0800 (中国标准时间)@90b2335d-ef75-45d4-ad19-9aa718b8d188
+21:21:16 debug: Inspect file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts
+21:21:16 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/code-quality/cr.mjs.
+21:21:16 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:21:16 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:21:16 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:21:16 debug: Resolve ./CardView from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+21:21:16 debug: Target(preview) ends with cost 353.8050999995321ms.
+21:22:45 debug: Dispatch build request for time accumulated 1 asset changes.
+21:22:45 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+21:22:45 debug: Target(editor) build started.
+21:22:45 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:21:11 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:22:40 GMT+0800 (中国标准时间)
+21:22:45 debug: Inspect cce:/internal/x/prerequisite-imports
+21:22:45 debug: Resolve file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+21:22:45 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts.
+21:22:45 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+21:22:45 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts.
+21:22:45 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts.
+21:22:45 debug: Detected change: file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts. Last mtime: Thu Feb 12 2026 21:21:14 GMT+0800 (中国标准时间)@90b2335d-ef75-45d4-ad19-9aa718b8d188, Current mtime: Thu Feb 12 2026 21:22:41 GMT+0800 (中国标准时间)@90b2335d-ef75-45d4-ad19-9aa718b8d188
+21:22:45 debug: Inspect file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts
+21:22:45 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/code-quality/cr.mjs.
+21:22:45 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:22:45 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:22:45 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:22:45 debug: Resolve ./CardView from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+21:22:45 debug: Target(editor) ends with cost 340.1628999998793ms.
+21:22:45 debug: Target(preview) build started.
+21:22:45 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:21:11 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:22:40 GMT+0800 (中国标准时间)
+21:22:45 debug: Inspect cce:/internal/x/prerequisite-imports
+21:22:45 debug: Resolve file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+21:22:45 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts.
+21:22:45 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+21:22:45 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts.
+21:22:45 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts.
+21:22:45 debug: Detected change: file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts. Last mtime: Thu Feb 12 2026 21:21:14 GMT+0800 (中国标准时间)@90b2335d-ef75-45d4-ad19-9aa718b8d188, Current mtime: Thu Feb 12 2026 21:22:41 GMT+0800 (中国标准时间)@90b2335d-ef75-45d4-ad19-9aa718b8d188
+21:22:45 debug: Inspect file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts
+21:22:46 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/code-quality/cr.mjs.
+21:22:46 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:22:46 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:22:46 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:22:46 debug: Resolve ./CardView from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+21:22:46 debug: Target(preview) ends with cost 229.31429999973625ms.
+21:30:14 debug: Dispatch build request for time accumulated 1 asset changes.
+21:30:14 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+21:30:14 debug: Target(editor) build started.
+21:30:14 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:22:40 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:30:09 GMT+0800 (中国标准时间)
+21:30:14 debug: Inspect cce:/internal/x/prerequisite-imports
+21:30:14 debug: Resolve file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+21:30:14 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts.
+21:30:14 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+21:30:14 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts.
+21:30:14 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts.
+21:30:14 debug: Detected change: file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts. Last mtime: Thu Feb 12 2026 21:22:41 GMT+0800 (中国标准时间)@90b2335d-ef75-45d4-ad19-9aa718b8d188, Current mtime: Thu Feb 12 2026 21:30:12 GMT+0800 (中国标准时间)@90b2335d-ef75-45d4-ad19-9aa718b8d188
+21:30:14 debug: Inspect file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts
+21:30:14 debug: We encountered an load error: SyntaxError: E:\cocoseditors\Creator\3.8.2\file:\E:\marchine%20learning\projects\NewProject\assets\scripts\GameManager.ts: Invalid left-hand side in assignment expression. (82:8)
+
+  80 |
+  81 |         // 4. 主牌区禁用这张牌
+> 82 |         mainNode.getComponent(Button)?.interactable = false;
+     |         ^
+  83 |     }
+  84 |
+  85 |     // 刷新底牌显示
+21:30:14 error: undefined
+21:30:14 debug: We're missing the chunk file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts, referenced as 'file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts'.
+21:30:14 debug: Entry file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts did not library a chunk.
+21:30:14 error: TypeError: Cannot read property 'resolutions' of null
+21:30:14 debug: Target(editor) ends with cost 201.54710000008345ms.
+21:30:14 debug: Target(preview) build started.
+21:30:14 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:22:40 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:30:09 GMT+0800 (中国标准时间)
+21:30:14 debug: Inspect cce:/internal/x/prerequisite-imports
+21:30:14 debug: Resolve file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+21:30:14 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts.
+21:30:14 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+21:30:14 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts.
+21:30:14 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts.
+21:30:14 debug: Detected change: file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts. Last mtime: Thu Feb 12 2026 21:22:41 GMT+0800 (中国标准时间)@90b2335d-ef75-45d4-ad19-9aa718b8d188, Current mtime: Thu Feb 12 2026 21:30:12 GMT+0800 (中国标准时间)@90b2335d-ef75-45d4-ad19-9aa718b8d188
+21:30:14 debug: Inspect file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts
+21:30:14 debug: We encountered an load error: SyntaxError: E:\cocoseditors\Creator\3.8.2\file:\E:\marchine%20learning\projects\NewProject\assets\scripts\GameManager.ts: Invalid left-hand side in assignment expression. (82:8)
+
+  80 |
+  81 |         // 4. 主牌区禁用这张牌
+> 82 |         mainNode.getComponent(Button)?.interactable = false;
+     |         ^
+  83 |     }
+  84 |
+  85 |     // 刷新底牌显示
+21:30:15 error: undefined
+21:30:15 debug: We're missing the chunk file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts, referenced as 'file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts'.
+21:30:15 debug: Entry file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts did not library a chunk.
+21:30:15 error: TypeError: Cannot read property 'resolutions' of null
+21:30:15 debug: Target(preview) ends with cost 170.5916999997571ms.
+21:37:51 debug: Dispatch build request for time accumulated 1 asset changes.
+21:37:51 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+21:37:51 debug: Target(editor) build started.
+21:37:51 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:30:09 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:37:46 GMT+0800 (中国标准时间)
+21:37:51 debug: Inspect cce:/internal/x/prerequisite-imports
+21:37:51 debug: Resolve file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+21:37:51 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts.
+21:37:51 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+21:37:51 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts.
+21:37:51 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts.
+21:37:51 debug: Inspect file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts
+21:37:51 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/code-quality/cr.mjs.
+21:37:51 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:37:51 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:37:51 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:37:51 debug: Resolve ./CardView from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+21:37:51 debug: Target(editor) ends with cost 202.51300000026822ms.
+21:37:51 debug: Target(preview) build started.
+21:37:51 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:30:09 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:37:46 GMT+0800 (中国标准时间)
+21:37:51 debug: Inspect cce:/internal/x/prerequisite-imports
+21:37:51 debug: Resolve file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+21:37:51 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts.
+21:37:51 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+21:37:51 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts.
+21:37:51 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts.
+21:37:51 debug: Inspect file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts
+21:37:51 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/code-quality/cr.mjs.
+21:37:51 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:37:51 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:37:51 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:37:51 debug: Resolve ./CardView from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+21:37:51 debug: Target(preview) ends with cost 455.793000000529ms.
+21:39:15 debug: Dispatch build request for time accumulated 1 asset changes.
+21:39:15 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+21:39:15 debug: Target(editor) build started.
+21:39:15 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:37:46 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:39:10 GMT+0800 (中国标准时间)
+21:39:15 debug: Inspect cce:/internal/x/prerequisite-imports
+21:39:15 debug: Resolve file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+21:39:15 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts.
+21:39:15 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+21:39:15 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts.
+21:39:15 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts.
+21:39:15 debug: Detected change: file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts. Last mtime: Thu Feb 12 2026 21:37:49 GMT+0800 (中国标准时间)@90b2335d-ef75-45d4-ad19-9aa718b8d188, Current mtime: Thu Feb 12 2026 21:39:14 GMT+0800 (中国标准时间)@90b2335d-ef75-45d4-ad19-9aa718b8d188
+21:39:15 debug: Inspect file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts
+21:39:15 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/code-quality/cr.mjs.
+21:39:15 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:39:15 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:39:15 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:39:15 debug: Resolve ./CardView from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+21:39:15 debug: Target(editor) ends with cost 348.90469999983907ms.
+21:39:15 debug: Target(preview) build started.
+21:39:15 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:37:46 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:39:10 GMT+0800 (中国标准时间)
+21:39:15 debug: Inspect cce:/internal/x/prerequisite-imports
+21:39:15 debug: Resolve file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+21:39:15 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts.
+21:39:15 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+21:39:15 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts.
+21:39:15 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts.
+21:39:15 debug: Detected change: file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts. Last mtime: Thu Feb 12 2026 21:37:49 GMT+0800 (中国标准时间)@90b2335d-ef75-45d4-ad19-9aa718b8d188, Current mtime: Thu Feb 12 2026 21:39:14 GMT+0800 (中国标准时间)@90b2335d-ef75-45d4-ad19-9aa718b8d188
+21:39:15 debug: Inspect file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts
+21:39:16 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/code-quality/cr.mjs.
+21:39:16 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:39:16 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:39:16 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:39:16 debug: Resolve ./CardView from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+21:39:16 debug: Target(preview) ends with cost 353.6327999997884ms.
+21:43:20 debug: Dispatch build request for time accumulated 1 asset changes.
+21:43:20 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+21:43:20 debug: Target(editor) build started.
+21:43:20 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:39:10 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:43:14 GMT+0800 (中国标准时间)
+21:43:20 debug: Inspect cce:/internal/x/prerequisite-imports
+21:43:20 debug: Resolve file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+21:43:20 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts.
+21:43:20 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+21:43:20 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts.
+21:43:20 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts.
+21:43:20 debug: Detected change: file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts. Last mtime: Thu Feb 12 2026 21:39:14 GMT+0800 (中国标准时间)@90b2335d-ef75-45d4-ad19-9aa718b8d188, Current mtime: Thu Feb 12 2026 21:43:18 GMT+0800 (中国标准时间)@90b2335d-ef75-45d4-ad19-9aa718b8d188
+21:43:20 debug: Inspect file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts
+21:43:20 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/code-quality/cr.mjs.
+21:43:20 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:43:20 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:43:20 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:43:20 debug: Resolve ./CardView from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+21:43:20 debug: Target(editor) ends with cost 356.9018999999389ms.
+21:43:20 debug: Target(preview) build started.
+21:43:20 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:39:10 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:43:15 GMT+0800 (中国标准时间)
+21:43:20 debug: Inspect cce:/internal/x/prerequisite-imports
+21:43:20 debug: Resolve file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///E:/cocoseditors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+21:43:20 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardModel.ts.
+21:43:20 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+21:43:20 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameDataModel.ts.
+21:43:20 debug: Resolve file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts.
+21:43:20 debug: Detected change: file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts. Last mtime: Thu Feb 12 2026 21:39:14 GMT+0800 (中国标准时间)@90b2335d-ef75-45d4-ad19-9aa718b8d188, Current mtime: Thu Feb 12 2026 21:43:18 GMT+0800 (中国标准时间)@90b2335d-ef75-45d4-ad19-9aa718b8d188
+21:43:20 debug: Inspect file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts
+21:43:20 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/code-quality/cr.mjs.
+21:43:20 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:43:20 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:43:20 debug: Resolve cc from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+21:43:20 debug: Resolve ./CardView from file:///E:/marchine%20learning/projects/NewProject/assets/scripts/GameManager.ts as file:///E:/marchine%20learning/projects/NewProject/assets/scripts/CardView.ts.
+21:43:20 debug: Target(preview) ends with cost 379.74299999978393ms.
